@@ -174,8 +174,7 @@ header{
 
 .add-img{
     object-fit: cover;
-    width: 60%;
-    height: 80%;
+    size: 80%;
     border-radius: 10px;
     transform: scale(0);
     transition: translate .3 .2;
