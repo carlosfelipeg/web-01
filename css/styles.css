@@ -65,3 +65,31 @@ header{
     transform: translate(110%);
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
+
+.spread{
+    transform: translate(0);
+}
+
+.menu-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/*Nuestro servicio*/
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #9f8ad0;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
