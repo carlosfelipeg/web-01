@@ -348,16 +348,7 @@ footer{
     .subtitulo{
         font-size: 30px;
     }
-    .contenedor-servicio{
-        width: 80%;
-        margin-bottom: 40px;
-    }
-    .checklist-servicio{
-        width: 80%;
-    }
-    .service{
-        margin-bottom: 30px;
-    }
+    
     .add-img{
         width: 95%;
     }
@@ -365,23 +356,13 @@ footer{
     .img-galeria{
         width: 95%;
     }
-    .cont-expert{
-        width: 80%;
-    }
-    .footer-content{
-        justify-content: center;
-    }
+
     .social-media{
-        width: 80%;
-        justify-content: space-evenly;
+        width: 100%;
     }
-    .social-media i{
-        margin-left: 0;
-    }
+
     .contact-us{
-        text-align: center;
-        width: 80%;
-        margin-bottom: 40px;
+        width: 90%;
     }
 
 }
