@@ -15,6 +15,7 @@ contenedorLight.addEventListener('click', (e) => {
         contenedorLight.classList.toggle('show');
         imagenesLight.classList.toggle('showImage');
         hamburguer1.style.opacity = '1'
+        enableScroll();
     }
 });
 
@@ -23,4 +24,15 @@ const aparecer_img = (imagen) => {
     contenedorLight.classList.toggle('show');
     imagenesLight.classList.toggle('showImage');
     hamburguer1.style.opacity = '0';
+    disableScroll();
+}
+
+function disableScroll(){  
+    var x = window.scrollX;
+    var y = window.scrollY;
+    window.onscroll = function(){ window.scrollTo(x, y) };
+}
+
+function enableScroll(){  
+    window.onscroll = null;
 }
